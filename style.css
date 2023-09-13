@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+}
+section {
+    position:relative;
+width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+section .main {
+ width: 65%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin-left: 70px;
+}
+
+nav {
+    border: 0px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+line-height: 10px;
+  
+}
+nav button {
+    font-size: .8em;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-right: 190px;
+}
+.navication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-right: 190px;
+}
+nav span {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 190px;
+}
+.main {
+    background: #F8F8FA;
+
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main .sv {
+    width: 50%;
+
+}
+.main article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+    align-items: flex-start;
+}
+article h1 {
+   
+    font-size: 45px;
+}
+article button {
+    font-size: .5em;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: black;
+    color: white;
+  
+}
+.sv svg {
+    object-fit: cover;
+    width: 350px;
+}
+nav {
+    margin-top: 20px;
+}
